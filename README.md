@@ -15,7 +15,7 @@ make install
 # pip install -r requirements.txt
 ```
 
-3) AWS Authentication
+3) AWS Authentication  
 To enable boto3 to access the DynamoDB, add the following lines to your.env/bin/activate script
 ```bash
 export AWS_ACCESS_KEY_ID=AKIAXXXXXXXXXXXX
