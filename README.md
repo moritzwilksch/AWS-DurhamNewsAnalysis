@@ -15,6 +15,8 @@ source .env/bin/activate
 
 2) Install required libraries
 ```bash
-pip install -r requirements.txt
+make install
+# OR:
+# pip install -r requirements.txt
 ```
 
