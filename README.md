@@ -16,7 +16,7 @@ make install
 ```
 
 3. AWS Authentication  
-To enable boto3 to access the DynamoDB, add the following lines to your.env/bin/activate script
+To enable boto3 to access the DynamoDB, add the following lines to your `.env/bin/activate` script
 ```bash
 export AWS_ACCESS_KEY_ID=AKIAXXXXXXXXXXXX
 export AWS_SECRET_ACCESS_KEY=eo8CdXXXXXXXXXXXXXXXXXXXXXXXX
