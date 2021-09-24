@@ -2,20 +2,20 @@
 Leveraging AWS cloud technologies for news sentiment analysis
 
 ## Project Setup
-1) Create and activate a virtual environment
+1. Create and activate a virtual environment  
 ```bash
 python -m venv .env
 source .env/bin/activate
 ```
 
-2) Install required libraries
+2. Install required libraries  
 ```bash
 make install
 # OR:
 # pip install -r requirements.txt
 ```
 
-3) AWS Authentication  
+3. AWS Authentication  
 To enable boto3 to access the DynamoDB, add the following lines to your.env/bin/activate script
 ```bash
 export AWS_ACCESS_KEY_ID=AKIAXXXXXXXXXXXX
