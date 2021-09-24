@@ -25,7 +25,6 @@ replacing them with your IAM account tokens.
 
 
 ## Architecture
-|![AWS-DNSA drawio-3](https://user-images.githubusercontent.com/58488209/134623331-322f66d5-89a3-415d-8e2f-a8c37e5c8af0.png)
-|
+|![AWS-DNSA drawio-3](https://user-images.githubusercontent.com/58488209/134623331-322f66d5-89a3-415d-8e2f-a8c37e5c8af0.png)|
 |---|
 | Architecture of the application |
