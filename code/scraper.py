@@ -74,11 +74,13 @@ def scrape_story_links(headlines_with_links: list[dict[str, str]] = None, sleep:
 
         time.sleep(sleep)
 
+    with open("dump.json", "w") as f:
+        json.dump(result_list, f)
+        
     return result_list
 
 
 if __name__ == "__main__":
     results = scrape_story_links()
 
-    with open("dump.json", "w") as f:
-        json.dump(results, f)
+
